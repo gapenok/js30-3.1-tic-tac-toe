@@ -44,3 +44,11 @@ const check = () => {
 const prepareResult = winner => {
     contentWrapper.innerHTML = `${winner} КРАСАВЧИКИ !!!`;
     modalResult.style.display = 'block';}
+
+const closeModal = () =>{
+    modalResult.style.display = 'none';
+    location.reload();
+}
+overlay.addEventListener("click", closeModal);
+btnClose.addEventListener("click", closeModal);
+

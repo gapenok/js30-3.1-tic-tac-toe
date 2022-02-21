@@ -1,10 +1,14 @@
-  
+body{
+    background-color: rgb(69, 103, 143);
+}
+
 .area-wrapper {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 150px;
     
 }
 #area {
@@ -13,11 +17,12 @@
     background-color: rgb(48, 48, 216);
     display: flex;
     flex-wrap: wrap;
+    
 }
 .box {
     width: 100px;
     height: 100px;
-    border: 1px solid black;
+    border: 1px solid rgb(251, 255, 0);
     box-sizing: border-box;
     font-size: 34px;
     color: crimson;
@@ -62,4 +67,33 @@
     background-color: brown;
     color: chartreuse;
     cursor: pointer;
+    text-align: center;
+
+}
+.logo {
+    margin: 20px 20px;
+    height: 25px;
+    justify-content: lefts;
+}
+
+.year {
+    height: 15px;  
+    justify-content: center;
+}
+
+.ghlogo {
+    margin: 20px 20px;
+    height: 25px;   
+}
+.footer {
+    position: relative;
+    bottom: 10px;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+footer{
+    margin-top: 10%;
 }
